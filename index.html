@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/
+    libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <h1>Music Player</h1>
+
+    <div class="music__container">
+        <div class="music__info">
+            <h4 id="title">Anyway</h4>
+            <div class="progress__container">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <audio src="./Music/05-Anyway Feat Xolim & Alie-Keyz.mp3" id="audio"></audio>
+
+        <div class="img__container">
+            <img src="./Images/3d_gradient_sphere_5k.jpg" height="100%" width="50%" alt="music__cover" id="cover"/>
+        </div>
+
+        <div class="navigation">
+            <button id="prev" class="action__btn">
+                <img src="./Images/rewind.png" alt="">
+            </button>
+            <button id="play" class="action__btn action__btn__big">
+                <img src="./Images/fa-play.png" alt="">
+            </button>
+            <button id="next" class="action__btn">
+                <img src="./Images/fast_forward.png" alt="">
+            </button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
